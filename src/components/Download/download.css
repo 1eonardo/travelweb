@@ -1,0 +1,54 @@
+.section_download{
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.desc_download{
+    margin-bottom: 2rem;
+}
+
+.download_content{
+    width: 80%;
+    margin-left: 10rem;
+}
+
+.title_carrucel{
+    margin-bottom: 1rem;
+  }
+
+  .project_img1 {
+    width: 30.5rem;
+    height: 25rem;
+    border-radius: 8px 8px 8px 8px;
+  }
+  
+  .project_title {
+    padding: 5px;
+    text-align: left;
+    background-color: #f8f8f8;
+    font-size: 15px;
+  }
+
+
+  @media screen and (max-width: 700px){    
+    .section_download{
+      margin-left: -100px;
+    }
+
+    
+    .project_img1 {
+      width: 29rem;
+    }
+  }
+
+  @media screen and (max-width: 520px){
+
+    .section_download{
+      margin-left: -140px;
+    }
+
+    
+    .project_img1 {
+      width: 29rem;
+    }
+  }

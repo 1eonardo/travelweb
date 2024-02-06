@@ -1,0 +1,153 @@
+.footer{
+    width: 100%;
+    padding: 100px 15px;
+    background: rgb(0, 34, 79);
+    color: #efefef;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-2{
+    flex-grow: 0.5;
+}
+
+.support{
+    display: block;
+    text-decoration: none;
+    color: #d8d8d8;
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+.support:hover{
+    color: rgb(177, 214, 255);
+}
+
+.end{
+    width: 100%;
+    padding: 20px 15px;
+    background: #003b95;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.copy{
+    width: 100%;
+    padding: 20px 15px;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.copydesc{
+    color: #4e4e4e;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: left;
+}
+
+.btnews{
+    text-decoration: none;
+    border: solid 1px #006ce4;
+    background-color: #006ce4;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 60px;
+    border-radius: 5px;
+}
+
+
+.btnews:hover{
+    background: #0f7dfa;
+}
+
+
+.btnend{
+    text-decoration: none;
+    border: solid 1px #fff;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+
+.btnend:hover{
+    background: rgba(9, 111, 226, 0.24);
+}
+
+.inputnewmail{
+    width: 18rem;
+    background: #f0f3f5;
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+
+    &::placeholder{
+        font-size: 13px;
+        opacity: .5;
+        font-weight: 400;
+    }
+    &:focus{
+        outline: none;
+    }
+}
+
+.titlenewfooter{
+    margin-bottom: 1rem;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.titlecontact{
+    margin-bottom: 1rem;
+}
+
+.descontact{
+    margin-bottom: 1rem;
+    font-size: 12px;
+}
+
+.social-f, .social-i, .social-t{
+    font-size: 30px;
+    margin: 10px;
+    color: #8bb3ff;
+}
+
+
+.social-f:hover, .social-i:hover, .social-t:hover{
+    color: #4888ff;
+}
+
+
+@media screen and (max-width: 900px){
+    .copy{
+        margin-bottom: -100px;
+    }
+    
+}
+
+
+@media screen and (max-width: 720px){
+    .copy{
+        margin-bottom: -100px;
+    }
+    
+}
+
+@media screen and (max-width: 520px){
+    .col-1{
+        display: none;
+    }
+
+    .copy{
+        margin-bottom: -100px;
+    }
+    
+}

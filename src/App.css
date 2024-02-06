@@ -1,38 +1,138 @@
-.App {
-  text-align: center;
+/*========GOOGLE FONTS===========*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/nunito');
+
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+
+@import url('https://fonts.cdnfonts.com/css/century-gothic-paneuropean');
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+/*========Variable CSS===========*/
+:root {
+
+  --header-height: 3rem;
+
+  /*Color Mode HSL*/
+  --hue: 0;
+  --sat: 0%;
+  --title-color: hsl(var(--hue), var(--sat), 20%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+  --text-color: hsl(var(--hue), var(--sat), 46%);
+  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --nav-color: hsl(var(--hue), var(--sat), 98%);
+  --container-color: #fff;
+  --container-color-black: #000;
+  --home-social: hsl(var(--hue), var(--sat), 20%);
+  --header-color: #292929;
+  --header-text-color: #fff;
+  --container-color-black2: #1e1e1e;
+  --container-color-black3: #414141;
+  --first-color-green: #3CECA5;
+  --first-color-dark: #62caa1;
+  --hue-color:250;
+  --first-color-light: hsl(var(--hue-color), 8%, 61%);
+  --project-color-back: #f0efef;
+  --stack-color: #000;
+  --accents-2:#eaeaea;
+
+  
+  /*========Font and typography=====*/
+  --body-font: "Poppins", Poppins;
+  --logo-font: 'Great Vibes', cursive;
+  --about-name-font: 'Courier Prime', monospace;
+  --newfont: 'Nunito', sans-serif;
+  --newfont2: 'montserrat', sans-serif;;
+  --gotic: "century gothic paneuropean", sans-serif;
+  --dyna: "DynaPuff", sans-serif;
+
+
+  /*-----------------------------*/
+
+  /*--logo-1-png: url('./Assets/LogoTherapy.png');*/
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*============BASE==================*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+html{
+  scroll-behavior: smooth;
+}
+
+
+body{
+  width: 100%;
+  background-color: #F4F4F4;
+}
+
+
+/*responsive typograhy*/
+
+@media screen and (max-windth: 992px) {
+  :root{
+    --big-font-size: 2.75rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+    --tiny-font-size: 0.50rem;
+
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/*============BREAKPOINTS==================*/
+
+/*For large device*/
+@media screen and (max-width: 992px) {
+  body{
+    margin: 0 0 var(--header-height) 0;
+  }
+  
+  .contenedor{
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
+
+  .button{
+    padding: 1rem 1.75rem;
+  }
+
+  .button_icon{
+    width: 22px;
+    height: 22px;
+  }
 }
 
-.App-link {
-  color: #61dafb;
+/*For medium device*/
+@media screen and (max-width: 768px) {
+
+  body{
+    margin: 0 0 var(--header-height) 0;
+  }
+
+  .section{
+    padding: 2rem 0 4rem;
+  }
+
+  .section_about-subtitle{
+    margin-bottom: var(--mb-3);
+  }
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+

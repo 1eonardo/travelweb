@@ -1,0 +1,215 @@
+.background{
+    text-align: center;
+    width: 100%;
+    height: 70%;
+    position: relative;
+}
+
+.backimg{
+    width: 100%;
+    height: 35rem;
+    object-fit: cover;
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 35rem;
+    background-color: #704401;
+    opacity: 0.4; /* Puedes ajustar la opacidad según tus preferencias */
+    z-index: 1; /* Asegúrate de que esté por encima de la imagen de fondo */
+}
+
+.home_text{
+    position: absolute;
+    z-index: 2;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.home_title{
+    font-size: 3rem;
+    font-weight: 800;
+    color: #fff;
+    font-family: var(--body-font);
+}
+
+.home_description2{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+.btnhome{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 5px 30px;
+    margin: 0;
+    text-decoration: none;
+    justify-content: center;
+    color: white;
+    background-color: #174AE4;
+    border: solid #174AE4 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: -4.9rem;
+    position: fixed;
+}
+
+.btnhome:hover{
+    background-color: #3764eb;
+    border: solid #3764eb 2px;
+    transition: 300ms;
+}
+
+.homeCard{
+    position: absolute;
+    z-index: 1;
+    width: 80%;
+    border-radius: 1rem;
+    padding: 2rem;
+    background: #fff;
+    margin-top: -7rem;
+    margin-left: 8rem;
+    gap: 1rem;
+    justify-content: center;
+    box-shadow: 0 0 57px rgba(0,0,0,.2);
+}
+
+.homecard_container{
+    width: 100%;
+}
+
+.btnhome2{
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding: 5px 70px;
+    margin: 0;
+    text-decoration: none;
+    justify-content: center;
+    color: white;
+    background-color: #265bfc;
+    border: solid #265bfc 2px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.btnhome2:hover{
+    background-color: #1347e2;
+    border: solid #1c52f5 2px;
+    transition: 300ms;
+}
+
+.homeCard{
+    flex-direction: column;
+}
+
+.locationDiv, .disDiv, .priceDiv{
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 7px 7px;
+
+    label{
+        display: grid;
+        color: #505050;
+        font-weight: 600;
+        font-size: 13px;
+        padding-bottom: 0.5rem;
+        text-align: left;
+    }
+
+    input{
+        width: 14rem;
+        background: #f0f3f5;
+        border-radius: 10px;
+        border: none;
+        padding: 10px;
+        font-size: 13px;
+        font-weight: 500;
+
+        &::placeholder{
+            font-size: 13px;
+            opacity: .5;
+            font-weight: 400;
+        }
+        &:focus{
+            outline: none;
+        }
+    }
+}
+
+
+@media screen and (max-width: 1000px){
+    .backimg{
+        height: 600px;
+    }
+    
+    .homeCard{
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 970px){
+   .background{
+        margin-bottom: 10rem;
+   }
+}
+
+@media screen and (max-width: 850px){
+    .home_title{
+        font-size: 2rem;
+    }
+    
+    .home_description{
+        font-size: 1rem;
+    }
+    
+    .home_text{
+        top: 45%;
+    }
+
+    .backimg{
+        width: 100%;
+        height: 600px;
+        opacity: 0.9;
+    }
+
+    .btnhome{
+        font-size: 0.8rem;
+        font-weight: 600;
+        padding: 12px 35px;
+        margin-left: -6rem;
+    }
+}
+
+
+
+@media screen and (max-width: 700px){
+    .homeCard{
+        margin-left: 70px;
+    }
+}
+
+
+@media screen and (max-width: 670px){
+    .background{
+        margin-bottom: 17rem;
+   }
+}
+
+@media screen and (max-width: 520px){
+    .homeCard{
+        margin-left: 45px;
+    }
+}
