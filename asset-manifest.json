@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/travelweb/static/css/main.e5c69638.css",
+    "main.js": "/travelweb/static/js/main.95c55a25.js",
+    "static/js/787.f4574f0a.chunk.js": "/travelweb/static/js/787.f4574f0a.chunk.js",
+    "static/media/cabin.jpg": "/travelweb/static/media/cabin.cb8aca45154aef13fc0e.jpg",
+    "static/media/travel2.jpg": "/travelweb/static/media/travel2.4a78a09147ddc52f1536.jpg",
+    "static/media/Mancar.png": "/travelweb/static/media/Mancar.36ec509de1d5147b86d6.png",
+    "static/media/mobile-app1.jpg": "/travelweb/static/media/mobile-app1.ba6131ff67f9c003bbca.jpg",
+    "static/media/mobile-app2.jpg": "/travelweb/static/media/mobile-app2.3ddf6119715c955ed41c.jpg",
+    "static/media/KiaRio.png": "/travelweb/static/media/KiaRio.699fcc3d73bfd3ae93cb.png",
+    "static/media/NissanCentra.png": "/travelweb/static/media/NissanCentra.d288126b9b1a678290c1.png",
+    "static/media/Tesla.png": "/travelweb/static/media/Tesla.ad1151784e89388e3bd8.png",
+    "static/media/464.jpg": "/travelweb/static/media/464.f2b5c70c97e93e7adb59.jpg",
+    "static/media/6-glamping.jpg": "/travelweb/static/media/6-glamping.e8a78a9e335fde3809b9.jpg",
+    "static/media/7-cabañas.jpg": "/travelweb/static/media/7-cabañas.ff0ef425f375c8fb948d.jpg",
+    "static/media/4-Villas.jpg": "/travelweb/static/media/4-Villas.d577c1e94d2df38c6a88.jpg",
+    "static/media/ckets.png": "/travelweb/static/media/ckets.868cd77698c964741d2d.png",
+    "static/media/5-Chalets.jpg": "/travelweb/static/media/5-Chalets.a4424e588d72b22e1e6a.jpg",
+    "static/media/2-apartamento.jpg": "/travelweb/static/media/2-apartamento.d00154e7de66465cdbde.jpg",
+    "static/media/1-Hotel.jpg": "/travelweb/static/media/1-Hotel.ae5d8be9199cb501f4e7.jpg",
+    "static/media/3-resorts.jpg": "/travelweb/static/media/3-resorts.41d42b18b4203add68ab.jpg",
+    "static/media/Navlogo3.png": "/travelweb/static/media/Navlogo3.ea66b8cfe09cbfbdf171.png",
+    "static/media/revicons.eot": "/travelweb/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/travelweb/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/travelweb/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/travelweb/index.html",
+    "main.e5c69638.css.map": "/travelweb/static/css/main.e5c69638.css.map",
+    "main.95c55a25.js.map": "/travelweb/static/js/main.95c55a25.js.map",
+    "787.f4574f0a.chunk.js.map": "/travelweb/static/js/787.f4574f0a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5c69638.css",
+    "static/js/main.95c55a25.js"
+  ]
+}
