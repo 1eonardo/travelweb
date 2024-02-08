@@ -14,7 +14,7 @@ function App() {
       <Navbar />
       <main className="main">
           <Routes>
-            <Route path="/" element={<section id="home"><Home /><Offers /><Downloadapp /><SearchCar /></section>} />
+            <Route path="/travelweb" element={<section id="home"><Home /><Offers /><Downloadapp /><SearchCar /></section>} />
           </Routes> 
       </main>
       <Footer />
